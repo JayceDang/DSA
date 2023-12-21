@@ -43,7 +43,7 @@ Trong bài viết này, chúng ta sẽ cùng nhau điểm qua các loại cấu 
 
 CTDL lưu trữ: thường có các thao tác như thêm 1 phần tử, xóa 1 phần tử. Có thể có thêm các thao tác như tìm kiếm 1 phần tử.
 CTDL truy vấn: thường dùng cho các bài toán mà bạn phải duy trì một tập hợp các số và thực hiện 1 số truy vấn trên đó.
-CTDL xâu: dùng cho các bài tập Xử lý xâu.
+CTDL xâu: dùng cho các bài tập [Xử lý xâu.](https://vnoi.info/wiki/algo/string/basic)
 
 # 1. CTDL Lưu trữ
 ## 1.1. Mảng (array), danh sách liên kết (linked list)
@@ -56,7 +56,7 @@ Mảng và danh sách liên kết là 2 cấu trúc dữ liệu nền tảng cho
 | **Truy cập phần tử**      | O(1)                                    | O(N)                             |
 | **Khác**                  | - Ít bộ nhớ hơn                      |             |
 
-Bạn có thể đọc thêm về mảng và danh sách liên kết ở đây
+Bạn có thể đọc thêm về mảng và danh sách liên kết [ở đây](https://vnoi.info/wiki/algo/data-structures/array-vs-linked-lists)
 
 ## 1.2. Stack, Queue, Deque
 ### 1.2.1. Stack
@@ -88,7 +88,7 @@ Cả 2 thao tác đều có độ phức tạp O(1).
 
 Deque được sử dụng trong một số thuật toán như:
 - BFS 01
-- Tìm Min/Max trên đoạn tịnh tiến.
+- [Tìm Min/Max trên đoạn tịnh tiến.](https://vnoi.info/wiki/algo/data-structures/deque-min-max)
 
 Trong C++ STL, có sẵn kiểu dữ liệu `deque`.
 
@@ -98,7 +98,7 @@ Heap là một cấu trúc dữ liệu cho phép thực hiện các thao tác:
 - Xóa một phần tử, với độ phức tạp O(logN)
 - Tìm max của các phần tử, với độ phức tạp O(1)
 
-Bạn có thể đọc thêm về Heap ở đây
+Bạn có thể đọc thêm về Heap [ở đây](https://vnoi.info/wiki/translate/wcipeg/Binary-Heap)
 
 Fibonacci Heap là một dạng heap có độ phức tạp bé hơn. Trong C++, CTDL priority_queue được cài đặt bằng Fibonacci Heap.
 
@@ -124,7 +124,7 @@ Trong trường hợp dữ liệu ngẫu nhiên, các thao tác trên có độ 
 . CTDL set trong C++ được cài đặt bằng cây đỏ đen.
 <img src="https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-6/412437370_1595937417821895_4285596929297032193_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=524774&_nc_eui2=AeEd_HCTgf5lBBiEe-S_hKcTnu6r8jz4cLue7qvyPPhwuwgiiDzfxWatIddT0xJZpz-cn9J_wT_OU36qolqge_fq&_nc_ohc=l58GgrZciOEAX_hm_kr&_nc_ht=scontent.fhan17-1.fna&oh=00_AfA_lR3tkvUFFH-oidhgHk0OG6HrCx4xvmpmZVwrptNh4g&oe=65867BE2">
 
-- Splay tree, Skip list, Treap thường được dùng trong các kỳ thi bởi cài đặt đơn giản.
+- Splay tree, [Skip list](https://vnoi.info/wiki/algo/data-structures/Skip-Lists), Treap thường được dùng trong các kỳ thi bởi cài đặt đơn giản.
 
 ## 1.5. Bảng băm (Hash Tables)
 Bảng băm là một CTDL thường được sử dụng như một từ điển: mỗi phần tử trong bảng băm là một cặp (khóa, giá trị). Nếu so sánh với mảng, khóa được xem như chỉ số của mảng, còn giá trị giống như giá trị mà ta lưu tại chỉ số tương ứng. Bảng băm không như các loại từ điển thông thường - ta có thể tìm được giá trị thông qua khóa của nó.
@@ -138,7 +138,7 @@ Trong trường hợp hàm Hash hoạt động tốt, mỗi bucket có rất ít
 - Tìm 1 khóa: O(1)
 - Thêm / xóa 1 khóa: O(1)
 
-Bạn có thể đọc thêm về Hash table ở đây
+Bạn có thể đọc thêm về Hash table [ở đây](https://vnoi.info/wiki/algo/data-structures/hash-table)
 
 # 2. CTDL Truy vấn
 ## 2.1. Mảng cộng dồn (Prefix Sum)
